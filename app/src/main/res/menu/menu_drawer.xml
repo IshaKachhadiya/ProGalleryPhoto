@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/nav_MediaColor"
+            android:icon="@drawable/ic_color"
+            android:title="MediaColor"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_color"
+            android:title="Location" />
+    </group>
+    <item
+        android:id="@+id/other"
+        android:title="Other">
+        <menu>
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_share"-->
+<!--                android:title="Share" />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_privacy"-->
+<!--                android:icon="@drawable/ic_privacy_drawer"-->
+<!--                android:title="PrivacyPolicy" />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_rate"-->
+<!--                android:icon="@drawable/ic_rate_drawer"-->
+<!--                android:title="rate_us" />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_about"-->
+<!--                android:icon="@drawable/ic_info_drawer"-->
+<!--                android:title="AboutUs" />-->
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,184 @@
+<resources>
+
+    <style name="SearchViewStyle" parent="@style/Widget.AppCompat.SearchView">
+        <item name="android:maxLength">30</item>
+        <item name="closeIcon">@drawable/search_close</item>
+        <item name="queryHint">@string/search_hint</item>
+        <item name="searchHintIcon">@null</item>
+        <item name="searchIcon">@drawable/search_icon</item>
+    </style>
+
+    <style name="PickerEditText">
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionSend</item>
+    </style>
+
+    <style name="colorpickerview__ColorPickerViewStyle">
+        <item name="android:layout_width">215dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SlideRadioButton" parent="@style/Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/yellow_theme</item>
+        <item name="colorControlNormal">@color/yellow_theme</item>
+    </style>
+
+    <style name="SortingRadioButton" parent="@style/Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/yellow_theme</item>
+        <item name="colorControlNormal">@color/yellow_theme</item>
+    </style>
+
+    <style name="ThemeWithCorners1" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:alwaysDrawnWithCache">false</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="MyDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="BottomSheetDialogStyle" parent="@style/Theme.Design.BottomSheetDialog">
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme" parent="@style/AppTheme_Default"></style>
+
+    <style name="AppTheme_Default" parent="@style/AppTheme_White"></style>
+
+    <style name="AppTheme_White" parent="@style/BaseTheme_Light">
+        <item name="android:windowFullscreen">true</item>
+        <item name="appBackgroundColor">@color/toolbar</item>
+        <item name="appBackgroundColorDark">@color/toolbar</item>
+        <item name="appBackgroundColorReverse">@color/toolbar</item>
+        <item name="appTextColor">@color/black</item>
+        <item name="appTextColorAlpha30">@color/white</item>
+        <item name="appTextColorDark">@color/black</item>
+        <item name="appTextColorReverse">@color/white</item>
+        <item name="back_btn">@drawable/img_back_white</item>
+        <item name="colorAccent">@color/toolbar</item>
+        <item name="colorPrimary">@color/toolbar</item>
+        <item name="colorPrimaryDark">@color/toolbar</item>
+        <item name="delete_btn">@drawable/ic_delete</item>
+        <item name="folder_btn">@drawable/folder_icn</item>
+        <item name="folder_delete_btn">@drawable/ic_delete</item>
+        <item name="folder_info_btn">@drawable/ic_info</item>
+        <item name="folder_lock_btn">@drawable/ic_lock</item>
+        <item name="folder_rename_btn">@drawable/img_folder_rename_white</item>
+        <item name="folder_restore_btn">@drawable/img_folder_restore_white</item>
+        <item name="folder_unlock_btn">@drawable/ic_lock</item>
+        <item name="font_bgcolor_btn">@drawable/ic_media_color_nav</item>
+        <item name="font_textcolor_btn">@drawable/font_textcolor_white</item>
+        <item name="font_textshadow_btn">@drawable/font_textshadow_white</item>
+        <item name="home_cllg_btn">@drawable/ic_nav_home</item>
+        <item name="main_menu_btn">@drawable/ic_menu</item>
+        <item name="pinlock_back_btn">@drawable/pinlock_back_btn_black</item>
+        <item name="preview_menu_btn">@drawable/ic_menu</item>
+        <item name="save_btn">@drawable/img_save_white</item>
+        <item name="search_btn">@drawable/img_search_white</item>
+        <item name="search_close_btn">@drawable/btn_close</item>
+        <item name="sorting_btn">@drawable/img_sorting_white</item>
+        <item name="tick_btn">@drawable/img_tick_white</item>
+    </style>
+
+    <style name="BaseTheme_Light" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionModeCloseDrawable">@drawable/ic_back</item>
+        <item name="android:actionOverflowButtonStyle">@style/AppTheme_OverFlowWhite</item>
+        <item name="android:textCursorDrawable">@drawable/edtcursor</item>
+        <item name="actionModeStyle">@style/ActionModeWhiteStyle</item>
+        <item name="colorPrimary">@color/toolbar</item>
+        <item name="colorSecondary">@color/toolbar</item>
+    </style>
+
+    <style name="AppTheme_OverFlowWhite" parent="@style/AppTheme">
+        <item name="android:src">@drawable/img_action_menu_gray</item>
+    </style>
+
+    <style name="ActionModeWhiteStyle" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/white</item>
+        <item name="titleTextStyle">@style/ActionModeTitleTextWhiteStyle</item>
+    </style>
+
+    <style name="ActionModeTitleTextWhiteStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="alert_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="CollageEditorTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorPrimary">@color/yellow_theme</item>
+        <item name="colorPrimaryDark">@color/yellow_theme</item>
+    </style>
+
+<!--    <style name="WindowAnimationTransition">-->
+<!--        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>-->
+<!--        <item name="android:windowExitAnimation">@android:anim/fade_out</item>-->
+<!--    </style>-->
+
+    <style name="AppTheme_NoActionBar" parent="@style/AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme_Dialog" parent="@android:style/Theme.Light">
+        <item name="android:backgroundDimAmount">1</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:shadowColor">@color/white</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="select_icon" parent="">
+        <item name="android:layout_width">@dimen/_22sdp</item>
+        <item name="android:layout_height">@dimen/_22sdp</item>
+        <item name="android:src">@drawable/ic_done</item>
+    </style>
+
+    <style name="title_button" parent="">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">@dimen/_10sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_10sdp</item>
+    </style>
+    <style name="MyTheme_menu_drawer" parent="">
+        <item name="android:textColor">@color/txt_orange</item>
+    </style>
+</resources>

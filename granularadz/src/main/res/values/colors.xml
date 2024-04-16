@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ad_start_color">#FC654B</color>
+    <color name="ad_end_color">#FC654B</color>
+    <color name="ad_text_color">#FFFFFFFF</color>
+    <color name="qureka_heading_color">#FFFFFFFF</color>
+    <color name="native_ad_title_color">#000000</color>
+    <color name="native_ad_description_color">#FFFFFFFF</color>
+    <color name="own_color">#000000</color>
+    <color name="ad_background">#10959595</color>
+    <color name="transs_white">#80FFFFFF</color>
+    <color name="colorSecendory">#24498B</color>
+    <color name="transColorPrimary">#F54BEF</color>
+    <color name="sub_screen_color">#F54BEF</color>
+    <color name="sub_thanks_color">#959595</color>
+    <color name="screen_bg_dark">#87888D</color>
+
+    <color name="app_color">#FC654B</color>
+    <color name="doc">#ff1565c0</color>
+    <color name="xlx">#ff2e7d32</color>
+    <color name="ppt">#ffef6c00</color>
+    <color name="pdf">#fff45a29</color>
+    <color name="txt">#ff576d7e</color>
+    <color name="code_dark">#ff141414</color>
+    <color name="app_color4">#ff6990ef</color>
+    <color name="folder_view">#fff9a825</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

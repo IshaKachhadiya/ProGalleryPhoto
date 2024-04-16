@@ -1,0 +1,26 @@
+{
+  "AppSettings" : [
+    {
+      "APP_SETTINGS" : {
+        "AMDClickStatus": false,
+        "adshowingpopup": false,
+        "AltIntAppOpenStuse": false,
+        "appopenad": false,
+        "howshowaddequence": false,
+        "howshowinterstailadsequence": false,
+        "howshownativeadsequence": false,
+        "howshowrewardvideoadsequence": false,
+        "moreapp": false,
+        "needinternet": false,
+        "redirectotherapp": false,
+        "showadinapp": false,
+        "showappinhouse": false,
+        "showtestad": false,
+        "versionupdatedialog": false
+      }
+    }
+
+  ]
+
+}
+

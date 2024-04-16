@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lay_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundGravity="center"
+    android:paddingStart="1dp"
+    android:paddingLeft="1dp"
+    android:paddingTop="1dp"
+    android:paddingEnd="1dp"
+    android:paddingRight="1dp"
+    android:paddingBottom="1dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/off_white"
+        app:cardCornerRadius="8dp">
+
+        <ImageView
+            android:id="@+id/hide_photo_row_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/off_white"
+            android:contentDescription="@string/app_name"
+            android:cropToPadding="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:id="@+id/albumViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_32sdp"
+            android:layout_gravity="bottom"
+            android:background="@color/multiple_image_select_albumTextBackground"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_toStartOf="@+id/btnMoreDetails"
+                android:layout_toLeftOf="@+id/btnMoreDetails"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_view_album_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:paddingLeft="@dimen/_3sdp"
+                    android:textColor="@color/multiple_image_select_primary"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:id="@+id/text_view_album_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:paddingLeft="@dimen/_3sdp"
+                    android:textColor="@color/multiple_image_select_primary"
+                    android:textSize="@dimen/_10sdp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btnMoreDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_5sdp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_option"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_43sdp"
+            android:layout_gravity="bottom|right"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/img_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginRight="-5dp"
+                android:focusable="false" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_play"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:foregroundGravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_centerInParent="true"
+                android:foregroundGravity="center"
+                android:src="@drawable/ic_btn_play" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_size"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|right"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txt_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:text=""
+                android:textColor="@color/uvv_gray"
+                android:textSize="@dimen/_11sdp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/view_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end|fill_vertical"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="visible">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#70000000"
+                android:focusable="false" />
+
+            <ImageView
+                android:id="@+id/selected_img"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/ic_tick_icon"
+                android:focusable="false" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

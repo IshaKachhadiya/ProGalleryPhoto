@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundGravity="center"
+    android:paddingStart="1dp"
+    android:paddingLeft="1dp"
+    android:paddingTop="1dp"
+    android:paddingEnd="1dp"
+    android:paddingRight="1dp"
+    android:paddingBottom="1dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/off_white"
+        app:cardCornerRadius="8dp">
+
+        <ImageView
+            android:id="@+id/image_view_image_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/off_white"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:id="@+id/rel_play"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:foregroundGravity="center"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_centerInParent="true"
+                android:foregroundGravity="center"
+                android:src="@drawable/ic_btn_play" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:background="@color/txt_orange"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_180sdp">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/calculateLay"
+        android:layout_centerInParent="true">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_65sdp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerInParent="true" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="����  #Pro Gallery  ����"
+            android:includeFontPadding="false"
+        />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="horizontal"
+        android:id="@+id/calculateLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:layout_alignParentBottom="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pictures"
+                android:includeFontPadding="false"
+                android:alpha="0.7"
+                android:fontFamily="@font/itim_regular" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="@dimen/_16ssp"
+                android:textColor="@color/white"
+                android:id="@+id/pictureCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:text="0"
+                android:includeFontPadding="false" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/white"
+                android:id="@+id/pictureSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:alpha="0.7"
+                android:fontFamily="@font/itim_regular" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Album"
+                android:includeFontPadding="false"
+                android:alpha="0.7"
+                android:fontFamily="@font/itim_regular" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="@dimen/_16ssp"
+                android:textColor="@color/white"
+                android:id="@+id/albumCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:text="0"
+                android:includeFontPadding="false"
+            />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/white"
+                android:id="@+id/albumSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:alpha="0.7"
+                android:fontFamily="@font/itim_regular" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Videos"
+                android:includeFontPadding="false"
+                android:alpha="0.7"
+                android:fontFamily="@font/itim_regular" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="@dimen/_16ssp"
+                android:textColor="@color/white"
+                android:id="@+id/videoCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:text="0"
+                android:includeFontPadding="false"
+            />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/white"
+                android:id="@+id/videoSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:alpha="0.7"
+                android:fontFamily="@font/itim_regular" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

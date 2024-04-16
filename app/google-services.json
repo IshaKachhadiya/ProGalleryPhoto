@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "566222661170",
+    "project_id": "nfc-tools-cbd04",
+    "storage_bucket": "nfc-tools-cbd04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566222661170:android:78f999fc2134cb2489fe2b",
+        "android_client_info": {
+          "package_name": "hdphoto.galleryimages.gelleryalbum"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbQBMolpGLVfbqlVe7ZfTzliB3ROd-a9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

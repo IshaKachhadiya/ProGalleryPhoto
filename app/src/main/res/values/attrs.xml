@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="search_btn" format="reference">
+    </attr>
+    <attr name="search_close_btn" format="reference">
+    </attr>
+    <attr name="pinlock_back_btn" format="reference">
+    </attr>
+    <attr name="folder_unlock_btn" format="reference">
+    </attr>
+    <attr name="folder_delete_btn" format="reference">
+    </attr>
+    <attr name="folder_restore_btn" format="reference">
+    </attr>
+    <attr name="folder_btn" format="reference">
+    </attr>
+    <attr name="sorting_btn" format="reference">
+    </attr>
+    <attr name="colorAccent" format="color">
+    </attr>
+    <attr name="tick_btn" format="reference">
+    </attr>
+    <attr name="save_btn" format="reference">
+    </attr>
+    <attr name="preview_menu_btn" format="reference">
+    </attr>
+    <attr name="appBackgroundColor" format="color">
+    </attr>
+    <attr name="appBackgroundColorDark" format="color">
+    </attr>
+    <attr name="appBackgroundColorReverse" format="color">
+    </attr>
+    <attr name="appTextColor" format="color">
+    </attr>
+    <attr name="appTextColorAlpha30" format="color">
+    </attr>
+    <attr name="appTextColorDark" format="color">
+    </attr>
+    <attr name="appTextColorReverse" format="color">
+    </attr>
+    <attr name="back_btn" format="reference">
+    </attr>
+    <attr name="delete_btn" format="reference">
+    </attr>
+    <attr name="folder_info_btn" format="reference">
+    </attr>
+    <attr name="folder_lock_btn" format="reference">
+    </attr>
+    <attr name="folder_rename_btn" format="reference">
+    </attr>
+    <attr name="font_bgcolor_btn" format="reference">
+    </attr>
+    <attr name="font_textcolor_btn" format="reference">
+    </attr>
+    <attr name="font_textshadow_btn" format="reference">
+    </attr>
+    <attr name="home_cllg_btn" format="reference">
+    </attr>
+    <attr name="main_menu_btn" format="reference">
+    </attr>
+
+    <attr name="photo_src" format="integer">
+    </attr>
+
+    <declare-styleable name="ColorSlider">
+        <attr name="cs_colors" format="reference" />
+        <attr name="cs_hex_colors" format="reference" />
+        <attr name="cs_from_color" format="color" />
+        <attr name="cs_to_color" format="color" />
+        <attr name="cs_steps" format="integer" />
+        <attr name="cs_selector_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+    <declare-styleable name="TouchImageView">
+        <attr name="zoom_enabled" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ExoPlayerControlView">
+
+    </declare-styleable>
+    <declare-styleable name="CustomTextView">
+
+    </declare-styleable>
+
+</resources>

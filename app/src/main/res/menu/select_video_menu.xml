@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/action_select" android:id="@+id/Selector" android:title="Selector"/>
+    <item android:icon="@drawable/action_lock" android:id="@+id/Lock" android:title="Lock"/>
+    <item android:icon="@drawable/ic_copy_menu" android:id="@+id/Copy" android:title="Copy" app:iconTint="@color/yellow_theme"/>
+    <item android:icon="@drawable/ic_move_menu" android:id="@+id/Move" android:title="Move" app:iconTint="@color/yellow_theme"/>
+    <item android:icon="@drawable/ic_rename_menu" android:id="@+id/Rename" android:title="Rename" app:iconTint="@color/yellow_theme"/>
+    <item android:icon="@drawable/ic_delete_menu" android:id="@+id/Delete" android:title="Delete" app:iconTint="@color/yellow_theme"/>
+    <item android:icon="@drawable/ic_share_menu" android:id="@+id/Share" android:title="Share" app:iconTint="@color/yellow_theme"/>
+</menu>
